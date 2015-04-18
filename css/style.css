@@ -1864,9 +1864,15 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em; }
+  @media all and (min-width: 50em) {
+    h1 {
+      font-size: 2.8em; } }
 
 h2 {
   font-size: 1.15em; }
+  @media all and (min-width: 50em) {
+    h2 {
+      font-size: 1.5em; } }
 
 h3 {
   padding: 20px;
@@ -1879,7 +1885,8 @@ h4 {
   color: #D83018; }
   @media all and (min-width: 50em) {
     h4 {
-      margin: 10px 0 10px 0; } }
+      margin: 10px 0 10px 0;
+      text-align: left; } }
 
 a {
   display: block;
@@ -1907,7 +1914,10 @@ header {
   header nav {
     text-align: center; }
     header nav .overlay-open {
-      font-size: 30px; }
+      font-size: 34px; }
+      @media all and (min-width: 50em) {
+        header nav .overlay-open {
+          font-size: 44.2px; } }
     header nav a {
       transition: 0.3s ease 0.3s;
       -webkit-transition: 0.3s ease 0.3s; }
@@ -2010,7 +2020,7 @@ section {
   min-height: 100%; }
 
 .content {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%; }
   @media all and (min-width: 50em) {
     .content {
@@ -2018,7 +2028,7 @@ section {
   .content .box {
     margin: 10px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: rgba(0, 0, 0, 0.64); }
     .content .box .left {
       display: block;
       width: 50%;
@@ -2036,10 +2046,16 @@ section {
         vertical-align: top; } }
 
 #home {
-  background: url("../img/tunnel-black.jpg") no-repeat top center;
+  background: url("../img/tunnel-black-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 100%; }
+  @media all and (min-width: 50em) {
+    #home {
+      background: url("../img/tunnel-black-1920.jpg") no-repeat top center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
   #home .title {
     position: absolute;
     top: 10%;
@@ -2048,18 +2064,110 @@ section {
     z-index: 2; }
 
 #descargas {
-  background: url("../img/girl-back.jpg") no-repeat top center;
+  background: url("../img/girl-back.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100%; }
+  @media all and (min-width: 50em) {
+    #descargas {
+      background: url("../img/dark-city-1920.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
   #descargas a {
     margin-bottom: 10px; }
 
-#contacto {
-  background: url("../img/dark-stairway.jpg") no-repeat bottom center;
+#personajes {
+  background: url("../img/forest-sky-1024.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+  @media all and (min-width: 50em) {
+    #personajes {
+      background: url("../img/forest-sky-1920.jpg") no-repeat top center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
+  #personajes .personaje {
+    width: 47.5%;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    #personajes .personaje:nth-child(2n) {
+      margin-right: 0; }
+    @media all and (min-width: 50em) {
+      #personajes .personaje {
+        width: 23.7%;
+        margin-right: 10px; }
+        #personajes .personaje:nth-child(2n) {
+          margin-right: 10px; }
+        #personajes .personaje:nth-child(4n) {
+          margin-right: 0; } }
+
+#laeclosion {
+  background: url("../img/girl-backhead-1024.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+  @media all and (min-width: 50em) {
+    #laeclosion {
+      background: url("../img/girl-backhead-1920.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
+
+#elvirus {
+  background: url("../img/plant-1024.jpg") no-repeat bottom center;
   background-size: cover;
   width: 100%;
   min-height: 100%; }
+  @media all and (min-width: 50em) {
+    #elvirus {
+      background: url("../img/plant-1920.jpg") no-repeat top center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
+
+#trailer {
+  background: url("../img/wood-wall-1024.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+  @media all and (min-width: 50em) {
+    #trailer {
+      background: url("../img/wood-wall-1920.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
+  #trailer .video {
+    width: 100%;
+    height: 400px; }
+    @media all and (min-width: 50em) {
+      #trailer .video {
+        height: 600px; } }
+
+#musica {
+  background: url("../img/train-rain-1024.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+  @media all and (min-width: 50em) {
+    #musica {
+      background: url("../img/train-rain-1920.jpg") no-repeat top center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; } }
+
+#contacto {
+  background: url("../img/dark-stairway-1024.jpg") no-repeat bottom center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%; }
+  @media all and (min-width: 50em) {
+    #contacto {
+      background: url("../img/dark-stairway-1920.jpg") no-repeat bottom center;
+      background-size: cover;
+      width: 100%;
+      min-height: 100%; } }
 
 .dark-layer {
   position: absolute;
