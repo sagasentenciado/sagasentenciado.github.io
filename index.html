@@ -22,7 +22,7 @@
     </head>
     <body>
 		
-        <header><nav><a class="overlay-open"><i class="fa fa-bars"></i></a></nav></header>
+        <header><nav><a class="overlay-open" data-target="#overlay-menu"><i class="fa fa-bars"></i></a></nav></header>
         
         <section id="home">
             <div class="dark-layer"></div>
@@ -50,12 +50,12 @@
             <div class="content">
                 <h3>Personajes</h3> 
                 <div class="box">
-                    <img src="img/unknown.png" class="personaje">
-                    <img src="img/unknown.png" class="personaje">
-                    <img src="img/unknown.png" class="personaje">
-                    <img src="img/unknown.png" class="personaje">
-                    <img src="img/unknown.png" class="personaje">
-                    <img src="img/unknown.png" class="personaje">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
+                    <img src="img/unknown2.jpg" class="personaje overlay-open" data-target="#overlay-auroredumont">
                 </div>
             </div>
         </section>
@@ -132,6 +132,13 @@
                 <div class="box">
                     <img src="img/unknown.png" class="left">
                     <div class="right">
+                        <h4>Pilar algo (algo)</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/unknown.png" class="left">
+                    <div class="right">
                         <h4>Guillermo Herrero (diseño web)</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
@@ -139,7 +146,17 @@
             </div>
         </section>
         
-        <div class="overlay overlay-scale">
+        <div id="overlay-auroredumont" class="overlay overlay-scale">
+            <a href="#" class="overlay-close">X</a>
+            <div class="content">
+                <h4>Aurore Dumont</h4>
+                <h5>"Después de toda la mierda que había tenido que sufrir, de alguna forma aún tenía que dar gracias por no haberse visto obligada a pisar las calles. Hasta ese momento no había sobrevivido realmente"</h5>
+                <img src="img/unknown2.jpg">
+                <p>Edad: 16 años<br /><br />Estudiante<br /><br />Aurore es una adolescente acostumbrada a reinventarse para adaptarse a los continuos cambios que ha padecido durante toda su vida, mutando su personalidad y sus gustos con el objetivo de encajar allí donde fuera. Quizás por eso no se fía de las apariencias, porque sabe que la gente puede fingir ser lo que no es. Es inteligente, observadore y valiente. Sola y encerrada en el bloque de pisos en el que vivía tendrá que reinventarse por última vez y convertirse en una superviviente.</p>
+            </div>
+		</div>        
+        
+        <div id="overlay-menu" class="overlay overlay-scale overlay-menu">
             <div class="dark-layer"></div>
 			<a href="#" class="overlay-close">X</a>
             <nav>
