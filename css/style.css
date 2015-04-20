@@ -1888,6 +1888,12 @@ h4 {
       margin: 10px 0 10px 0;
       text-align: left; } }
 
+.tip {
+  font-size: 0.8em; }
+  @media all and (min-width: 50em) {
+    .tip.mobile {
+      display: none; } }
+
 a {
   display: block;
   padding: 0.3em 0.7em;
