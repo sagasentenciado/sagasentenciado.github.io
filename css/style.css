@@ -1889,7 +1889,7 @@ h4 {
       text-align: left; } }
 
 .tip {
-  font-size: 0.8em; }
+  font-size: 0.77em; }
   @media all and (min-width: 50em) {
     .tip.mobile {
       display: none; } }
@@ -2028,16 +2028,17 @@ html, body {
 
 section {
   position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  height: auto; }
 
 .content {
   margin: 10px auto;
   width: 100%; }
   @media all and (min-width: 50em) {
     .content {
-      width: 60%; } }
+      width: 70%; } }
   .content .box {
-    margin: 10px;
+    margin: 0 10px 10px 10px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.64); }
     .content .box .left {
@@ -2046,7 +2047,7 @@ section {
       margin: 0 auto; }
       @media all and (min-width: 50em) {
         .content .box .left {
-          width: 16%; } }
+          width: 12%; } }
     @media all and (min-width: 50em) {
       .content .box .right {
         width: 82%;
@@ -2069,16 +2070,17 @@ section {
     margin: 0 0 10px 0; }
     @media all and (min-width: 50em) {
       .overlay .content h4 {
-        font-size: 3em;
-        padding: 20px 20px 0;
+        font-size: 2.7em;
+        padding: 30px 20px 0;
         color: #8A0707; } }
   .overlay .content h5 {
     margin-bottom: 10px; }
     @media all and (min-width: 50em) {
       .overlay .content h5 {
-        font-size: 1.3em;
-        padding: 20px 0; } }
+        font-size: 1.2em;
+        padding: 30px 0; } }
   .overlay .content img {
+    position: relative;
     display: block;
     height: 100px;
     margin: 10px auto 10px auto; }
@@ -2129,6 +2131,7 @@ section {
     margin-bottom: 10px; }
 
 #personajes {
+  min-height: 700px;
   background: url("../img/forest-sky-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
@@ -2190,12 +2193,6 @@ section {
       background-size: cover;
       width: 100%;
       height: 100%; } }
-  #trailer .video {
-    width: 100%;
-    height: 300px; }
-    @media all and (min-width: 50em) {
-      #trailer .video {
-        height: 600px; } }
 
 #musica {
   background: url("../img/train-rain-1024.jpg") no-repeat top center;
@@ -2221,6 +2218,13 @@ section {
       background-size: cover;
       width: 100%;
       min-height: 100%; } }
+
+.video {
+  width: 100%;
+  height: 300px; }
+  @media all and (min-width: 50em) {
+    .video {
+      height: 600px; } }
 
 .dark-layer {
   position: absolute;
