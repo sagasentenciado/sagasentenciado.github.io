@@ -2131,7 +2131,7 @@ section {
     margin-bottom: 10px; }
 
 #personajes {
-  min-height: 700px;
+  min-height: 800px;
   background: url("../img/forest-sky-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
