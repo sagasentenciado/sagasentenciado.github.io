@@ -2117,7 +2117,7 @@ section {
       margin: 40px 0 0 0; } }
 
 #home {
-  background: url("../img/tunnel-black-1024.jpg") no-repeat top center;
+  background: url("../img/habitacion-movil.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 100%; }
@@ -2138,13 +2138,13 @@ section {
         top: 8%; } }
 
 #descargas {
-  background: url("../img/girl-back.jpg") no-repeat center center;
+  background: url("../img/angel-1024.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100%; }
   @media all and (min-width: 50em) {
     #descargas {
-      background: url("../img/dark-city-1920.jpg") no-repeat center center;
+      background: url("../img/angel-1920.jpg") no-repeat center center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
@@ -2153,13 +2153,13 @@ section {
 
 #personajes {
   min-height: 800px;
-  background: url("../img/forest-sky-1024.jpg") no-repeat top center;
+  background: url("../img/parque-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 100%; }
   @media all and (min-width: 50em) {
     #personajes {
-      background: url("../img/forest-sky-1920.jpg") no-repeat top center;
+      background: url("../img/parque-1920.jpg") no-repeat top center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
@@ -2183,62 +2183,62 @@ section {
           margin-right: 0; } }
 
 #laeclosion {
-  background: url("../img/girl-backhead-1024.jpg") no-repeat center center;
+  background: url("../img/zombies-1024.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100%; }
   @media all and (min-width: 50em) {
     #laeclosion {
-      background: url("../img/girl-backhead-1920.jpg") no-repeat center center;
+      background: url("../img/zombies-1920.jpg") no-repeat center center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
 
 #elvirus {
-  background: url("../img/plant-1024.jpg") no-repeat bottom center;
+  background: url("../img/virus-movil.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
-  min-height: 100%; }
+  height: 100%; }
   @media all and (min-width: 50em) {
     #elvirus {
-      background: url("../img/plant-1920.jpg") no-repeat top center;
+      background: url("../img/virus-1920.jpg") no-repeat top center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
 
 #trailer {
-  background: url("../img/wood-wall-1024.jpg") no-repeat center center;
+  background: url("../img/angel-1024.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100%; }
   @media all and (min-width: 50em) {
     #trailer {
-      background: url("../img/wood-wall-1920.jpg") no-repeat center center;
+      background: url("../img/angel-1920.jpg") no-repeat center center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
 
 #musica {
-  background: url("../img/train-rain-1024.jpg") no-repeat top center;
+  background: url("../img/grito-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 100%; }
   @media all and (min-width: 50em) {
     #musica {
-      background: url("../img/train-rain-1920.jpg") no-repeat top center;
+      background: url("../img/grito-1920.jpg") no-repeat top center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
 
 #contacto {
   padding-bottom: 3.5em;
-  background: url("../img/dark-stairway-1024.jpg") no-repeat bottom center;
+  background: url("../img/busto-1024.jpg") no-repeat bottom center;
   background-size: cover;
   width: 100%;
   min-height: 100%; }
   @media all and (min-width: 50em) {
     #contacto {
-      background: url("../img/dark-stairway-1920.jpg") no-repeat bottom center;
+      background: url("../img/busto-1920.jpg") no-repeat bottom center;
       background-size: cover;
       width: 100%;
       min-height: 100%; } }
