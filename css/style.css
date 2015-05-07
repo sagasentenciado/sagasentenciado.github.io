@@ -1876,8 +1876,11 @@ h2 {
 
 h3 {
   padding: 20px;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: center; }
+  @media all and (min-width: 50em) {
+    h3 {
+      font-size: 1.9em; } }
 
 h4 {
   font-size: 1.2em;
@@ -1914,19 +1917,34 @@ a.text {
 header {
   position: fixed;
   left: 0;
-  bottom: 2%;
+  bottom: 0;
+  display: block;
   width: 100%;
-  z-index: 10; }
-  header nav {
-    text-align: center; }
-    header nav .overlay-open {
+  z-index: 10;
+  text-align: center; }
+  header nav #menu {
+    background-color: transparent; }
+    @media all and (min-width: 50em) {
+      header nav #menu {
+        background-color: rgba(0, 0, 0, 0.8); } }
+    header nav #menu .overlay-open {
       font-size: 34px; }
       @media all and (min-width: 50em) {
-        header nav .overlay-open {
+        header nav #menu .overlay-open {
           font-size: 44.2px; } }
-    header nav a {
+    header nav #menu a {
       transition: 0.3s ease 0.3s;
       -webkit-transition: 0.3s ease 0.3s; }
+    header nav #menu li {
+      display: none;
+      font-size: 22px; }
+      header nav #menu li:first-child {
+        display: inline-block;
+        vertical-align: middle; }
+      @media all and (min-width: 50em) {
+        header nav #menu li {
+          display: inline-block;
+          vertical-align: middle; } }
 
 /* Overlay style */
 .overlay {
@@ -2070,14 +2088,14 @@ section {
     margin: 0 0 10px 0; }
     @media all and (min-width: 50em) {
       .overlay .content h4 {
-        font-size: 2.7em;
+        font-size: 2em;
         padding: 30px 20px 0;
         color: #8A0707; } }
   .overlay .content h5 {
     margin-bottom: 10px; }
     @media all and (min-width: 50em) {
       .overlay .content h5 {
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 30px 0; } }
   .overlay .content img {
     position: relative;
@@ -2096,7 +2114,7 @@ section {
       display: inline-block;
       vertical-align: top;
       width: 30%;
-      margin: 20px 0 0 0; } }
+      margin: 40px 0 0 0; } }
 
 #home {
   background: url("../img/tunnel-black-1024.jpg") no-repeat top center;
@@ -2105,7 +2123,7 @@ section {
   height: 100%; }
   @media all and (min-width: 50em) {
     #home {
-      background: url("../img/tunnel-black-1920.jpg") no-repeat top center;
+      background: url("../img/habitacion-1920.jpg") no-repeat top center;
       background-size: cover;
       width: 100%;
       height: 100%; } }
@@ -2115,6 +2133,9 @@ section {
     width: 100%;
     text-align: center;
     z-index: 2; }
+    @media all and (min-width: 50em) {
+      #home .title {
+        top: 8%; } }
 
 #descargas {
   background: url("../img/girl-back.jpg") no-repeat center center;
@@ -2143,16 +2164,19 @@ section {
       width: 100%;
       height: 100%; } }
   #personajes .personaje {
-    width: 47.3%;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 48.7%;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    margin-left: 0;
     cursor: pointer; }
     #personajes .personaje:nth-child(2n) {
       margin-right: 0; }
     @media all and (min-width: 50em) {
       #personajes .personaje {
         width: 23.7%;
-        margin-right: 10px; }
+        margin-right: 10px;
+        margin-bottom: 10px; }
         #personajes .personaje:nth-child(2n) {
           margin-right: 10px; }
         #personajes .personaje:nth-child(4n) {
