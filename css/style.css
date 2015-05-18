@@ -1875,9 +1875,12 @@ h2 {
       font-size: 1.5em; } }
 
 h3 {
+  position: relative;
   padding: 20px;
   font-size: 1.6em;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  z-index: 2; }
   @media all and (min-width: 50em) {
     h3 {
       font-size: 1.9em; } }
@@ -1921,12 +1924,13 @@ header {
   display: block;
   width: 100%;
   z-index: 10;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px #000000; }
   header nav #menu {
     background-color: transparent; }
     @media all and (min-width: 50em) {
       header nav #menu {
-        background-color: rgba(0, 0, 0, 0.6); } }
+        background-color: rgba(0, 0, 0, 0.5); } }
     header nav #menu .overlay-open {
       font-size: 34px; }
     header nav #menu a {
@@ -2048,8 +2052,10 @@ section {
   height: auto; }
 
 .content {
+  position: relative;
   margin: 10px auto;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
   @media all and (min-width: 50em) {
     .content {
       width: 70%; } }
@@ -2108,11 +2114,12 @@ section {
         height: auto;
         margin: 20px 20px 0 0; } }
   @media all and (min-width: 50em) {
-    .overlay .content p {
+    .overlay .content .right {
       display: inline-block;
       vertical-align: top;
       width: 30%;
-      margin: 40px 0 0 0; } }
+      height: auto;
+      margin: 20px 0 0 0; } }
 
 #home {
   background: url("../img/habitacion-movil.jpg") no-repeat bottom center;
@@ -2267,6 +2274,30 @@ section {
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%);
   /* IE10+ */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  /* IE6-8 */
+  z-index: 1; }
+
+.top-dark-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjE3JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, transparent 25%, transparent 30%, transparent 99%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.75)), color-stop(25%, transparent), color-stop(30%, transparent), color-stop(99%, transparent));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, transparent 25%, transparent 30%, transparent 99%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, transparent 25%, transparent 30%, transparent 99%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, transparent 25%, transparent 30%, transparent 99%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, transparent 25%, transparent 30%, transparent 99%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-8 */
