@@ -1933,7 +1933,7 @@ header {
         background-color: rgba(0, 0, 0, 0.5); } }
     header nav #menu .overlay-open {
       position: absolute;
-      bottom: 1%;
+      bottom: 3%;
       left: 4%;
       font-size: 34px; }
       @media all and (min-width: 50em) {
@@ -1955,7 +1955,7 @@ header {
           vertical-align: middle; } }
   header nav #social-media {
     position: absolute;
-    bottom: 1.8%;
+    bottom: 30%;
     right: 3%;
     background-color: transparent; }
     header nav #social-media li {
