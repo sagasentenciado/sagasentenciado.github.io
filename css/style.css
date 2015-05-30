@@ -1933,8 +1933,8 @@ header {
         background-color: rgba(0, 0, 0, 0.5); } }
     header nav #menu .overlay-open {
       position: fixed;
-      bottom: 2vw;
-      left: 3vw;
+      bottom: 1%;
+      left: 4%;
       font-size: 34px; }
       @media all and (min-width: 50em) {
         header nav #menu .overlay-open {
@@ -1955,8 +1955,8 @@ header {
           vertical-align: middle; } }
   header nav #social-media {
     position: fixed;
-    bottom: 3vw;
-    right: 2vw;
+    bottom: 1.8%;
+    right: 3%;
     background-color: transparent; }
     header nav #social-media li {
       display: inline-block;
