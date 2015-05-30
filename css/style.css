@@ -2042,14 +2042,11 @@ header {
   .overlay nav {
     height: 70%; } }
 html, body {
-  height: 100%;
-  min-height: 100%;
   background-color: #000000; }
 
 section {
   position: relative;
-  min-height: 100%;
-  height: auto; }
+  min-height: 100vh; }
 
 .content {
   position: relative;
@@ -2122,6 +2119,7 @@ section {
       margin: 20px 0 0 0; } }
 
 #home {
+  height: 100vh;
   background: url("../img/habitacion-movil.jpg") no-repeat bottom center;
   background-size: cover;
   width: 100%;
@@ -2157,7 +2155,6 @@ section {
     margin-bottom: 10px; }
 
 #personajes {
-  min-height: 800px;
   background: url("../img/parque-1024.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
