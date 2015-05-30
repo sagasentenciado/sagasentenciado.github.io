@@ -1932,7 +1932,13 @@ header {
       header nav #menu {
         background-color: rgba(0, 0, 0, 0.5); } }
     header nav #menu .overlay-open {
+      position: fixed;
+      bottom: 2px;
+      left: 6px;
       font-size: 34px; }
+      @media all and (min-width: 50em) {
+        header nav #menu .overlay-open {
+          position: inherit; } }
     header nav #menu a {
       padding: 10px 10px 5px 10px;
       transition: 0.3s ease 0.3s;
@@ -1947,6 +1953,39 @@ header {
         header nav #menu li {
           display: inline-block;
           vertical-align: middle; } }
+  header nav #social-media {
+    position: fixed;
+    bottom: 5px;
+    right: 4px;
+    background-color: transparent; }
+    header nav #social-media li {
+      display: inline-block;
+      vertical-align: top; }
+      header nav #social-media li a {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 30px;
+        padding: 10px 10px 5px 10px;
+        transition: 0.3s ease 0.3s;
+        -webkit-transition: 0.3s ease 0.3s; }
+        header nav #social-media li a#email {
+          font-size: 30px; }
+        @media all and (min-width: 50em) {
+          header nav #social-media li a {
+            font-size: 46px;
+            padding: 10px 10px 5px 10px;
+            transition: 0.3s ease 0.3s;
+            -webkit-transition: 0.3s ease 0.3s; }
+            header nav #social-media li a#email {
+              font-size: 38px; } }
+      @media all and (min-width: 50em) {
+        header nav #social-media li {
+          display: block; } }
+    @media all and (min-width: 50em) {
+      header nav #social-media {
+        bottom: 30vh;
+        right: auto;
+        left: 0; } }
 
 /* Overlay style */
 .overlay {
@@ -2037,6 +2076,10 @@ header {
   background: #8A0707; }
   .overlay-menu.open {
     opacity: 0.9; }
+  .overlay-menu li#social-media a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px; }
 
 @media screen and (max-height: 30.5em) {
   .overlay nav {
@@ -2244,6 +2287,10 @@ section {
       background-size: cover;
       width: 100%;
       min-height: 100%; } }
+  #contacto a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 6px; }
 
 .video {
   width: 100%;
