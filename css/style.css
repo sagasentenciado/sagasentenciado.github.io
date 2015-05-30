@@ -1932,7 +1932,7 @@ header {
       header nav #menu {
         background-color: rgba(0, 0, 0, 0.5); } }
     header nav #menu .overlay-open {
-      position: fixed;
+      position: absolute;
       bottom: 1%;
       left: 4%;
       font-size: 34px; }
@@ -1954,7 +1954,7 @@ header {
           display: inline-block;
           vertical-align: middle; } }
   header nav #social-media {
-    position: fixed;
+    position: absolute;
     bottom: 1.8%;
     right: 3%;
     background-color: transparent; }
